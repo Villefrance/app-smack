@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13168.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13189.4" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13147.4"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13165.3"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -244,10 +244,18 @@
                                         <real key="value" value="5"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="loginPressed:" destination="sYh-Jq-A9J" eventType="touchUpInside" id="pOp-3U-2tI"/>
+                                </connections>
                             </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="ZJo-dM-hTP">
+                                <rect key="frame" x="169" y="215" width="37" height="37"/>
+                                <color key="color" red="0.25882352939999997" green="0.3294117647" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="ZJo-dM-hTP" firstAttribute="centerY" secondItem="Xc9-GG-la6" secondAttribute="centerY" constant="-100" id="0P5-9d-MC8"/>
                             <constraint firstItem="h2i-nR-48l" firstAttribute="top" secondItem="Hg5-Ya-zeV" secondAttribute="bottom" id="7H1-c9-EIl"/>
                             <constraint firstItem="FBc-bQ-nDr" firstAttribute="top" secondItem="i16-Z9-4qZ" secondAttribute="bottom" constant="60" id="9KK-OO-pOW"/>
                             <constraint firstItem="h2i-nR-48l" firstAttribute="centerX" secondItem="Xc9-GG-la6" secondAttribute="centerX" id="BLF-TM-TF8"/>
@@ -257,10 +265,14 @@
                             <constraint firstItem="RfY-eA-dqa" firstAttribute="centerX" secondItem="Xc9-GG-la6" secondAttribute="centerX" id="dLG-pM-F63"/>
                             <constraint firstItem="RfY-eA-dqa" firstAttribute="top" secondItem="FBc-bQ-nDr" secondAttribute="bottom" constant="40" id="f6W-rY-bne"/>
                             <constraint firstItem="Jv3-dI-8jN" firstAttribute="top" secondItem="i16-Z9-4qZ" secondAttribute="bottom" constant="8" id="m6o-KX-cMT"/>
+                            <constraint firstItem="ZJo-dM-hTP" firstAttribute="centerX" secondItem="Xc9-GG-la6" secondAttribute="centerX" id="nR3-uW-Pxf"/>
                             <constraint firstItem="Hg5-Ya-zeV" firstAttribute="centerX" secondItem="Xc9-GG-la6" secondAttribute="centerX" id="we6-Mk-grK"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="passwordTxt" destination="KDN-ml-AO5" id="tIp-Bm-C3J"/>
+                        <outlet property="spinner" destination="ZJo-dM-hTP" id="SOO-kv-NdK"/>
+                        <outlet property="usernameTxt" destination="rK2-Jw-xTn" id="GnO-dy-M1E"/>
                         <segue destination="bCo-xv-kgi" kind="show" identifier="toCreateAccount" id="rzl-FU-HW5"/>
                     </connections>
                 </viewController>
