@@ -19,6 +19,7 @@
 		FD64DD371F2FD79B002933DA /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD64DD361F2FD79B002933DA /* CreateAccountVC.swift */; };
 		FDA168B71F58476800FC0C84 /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA168B61F58476700FC0C84 /* MessageService.swift */; };
 		FDA168B91F58479800FC0C84 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA168B81F58479800FC0C84 /* Channel.swift */; };
+		FDA168BB1F584CB800FC0C84 /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA168BA1F584CB800FC0C84 /* ChannelCell.swift */; };
 		FDC24E5B1F3065EF002EAD68 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC24E5A1F3065EF002EAD68 /* AuthService.swift */; };
 		FDC24E5D1F33168C002EAD68 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC24E5C1F33168C002EAD68 /* RoundedButton.swift */; };
 		FDC24E5F1F331E84002EAD68 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC24E5E1F331E84002EAD68 /* UserDataService.swift */; };
@@ -48,6 +49,7 @@
 		FD64DD361F2FD79B002933DA /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 		FDA168B61F58476700FC0C84 /* MessageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
 		FDA168B81F58479800FC0C84 /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		FDA168BA1F584CB800FC0C84 /* ChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = "<group>"; };
 		FDC24E5A1F3065EF002EAD68 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		FDC24E5C1F33168C002EAD68 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		FDC24E5E1F331E84002EAD68 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				FDC24E5C1F33168C002EAD68 /* RoundedButton.swift */,
 				FDC24E621F333F74002EAD68 /* AvatarCell.swift */,
 				FDC24E641F33926E002EAD68 /* CircleImage.swift */,
+				FDA168BA1F584CB800FC0C84 /* ChannelCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD4097091F530E730045ABA2 /* ProfileVC.swift in Sources */,
+				FDA168BB1F584CB800FC0C84 /* ChannelCell.swift in Sources */,
 				FD64DD2D1F2FC2D0002933DA /* SWRevealViewController.m in Sources */,
 				FDC24E611F333DCA002EAD68 /* AvatarPickerVC.swift in Sources */,
 				FDC24E5D1F33168C002EAD68 /* RoundedButton.swift in Sources */,
