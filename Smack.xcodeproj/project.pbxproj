@@ -22,6 +22,7 @@
 		FDA168BB1F584CB800FC0C84 /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA168BA1F584CB800FC0C84 /* ChannelCell.swift */; };
 		FDA168BE1F5850E800FC0C84 /* AddChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA168BC1F5850E800FC0C84 /* AddChannelVC.swift */; };
 		FDA168BF1F5850E800FC0C84 /* AddChannelVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDA168BD1F5850E800FC0C84 /* AddChannelVC.xib */; };
+		FDA168C11F5859BC00FC0C84 /* SocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA168C01F5859BC00FC0C84 /* SocketService.swift */; };
 		FDC24E5B1F3065EF002EAD68 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC24E5A1F3065EF002EAD68 /* AuthService.swift */; };
 		FDC24E5D1F33168C002EAD68 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC24E5C1F33168C002EAD68 /* RoundedButton.swift */; };
 		FDC24E5F1F331E84002EAD68 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC24E5E1F331E84002EAD68 /* UserDataService.swift */; };
@@ -54,6 +55,7 @@
 		FDA168BA1F584CB800FC0C84 /* ChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = "<group>"; };
 		FDA168BC1F5850E800FC0C84 /* AddChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChannelVC.swift; sourceTree = "<group>"; };
 		FDA168BD1F5850E800FC0C84 /* AddChannelVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddChannelVC.xib; sourceTree = "<group>"; };
+		FDA168C01F5859BC00FC0C84 /* SocketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketService.swift; sourceTree = "<group>"; };
 		FDC24E5A1F3065EF002EAD68 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		FDC24E5C1F33168C002EAD68 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		FDC24E5E1F331E84002EAD68 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 				FDC24E5A1F3065EF002EAD68 /* AuthService.swift */,
 				FDC24E5E1F331E84002EAD68 /* UserDataService.swift */,
 				FDA168B61F58476700FC0C84 /* MessageService.swift */,
+				FDA168C01F5859BC00FC0C84 /* SocketService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -330,6 +333,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDA168C11F5859BC00FC0C84 /* SocketService.swift in Sources */,
 				FD4097091F530E730045ABA2 /* ProfileVC.swift in Sources */,
 				FDA168BB1F584CB800FC0C84 /* ChannelCell.swift in Sources */,
 				FD64DD2D1F2FC2D0002933DA /* SWRevealViewController.m in Sources */,
