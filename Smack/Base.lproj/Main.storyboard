@@ -607,6 +607,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="channelNameLbl" destination="erF-0c-jAK" id="9bm-bw-jz2"/>
                         <outlet property="menuBtn" destination="u0c-Bt-8Db" id="Eid-Jp-tej"/>
                     </connections>
                 </viewController>
