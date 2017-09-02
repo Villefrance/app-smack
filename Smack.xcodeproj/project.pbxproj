@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AC9DA8E86A0CCCC7984DBBA8 /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A832F2E14C5099897607FDC /* Pods_Smack.framework */; };
 		FD1782811F5ACAD8009362FD /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1782801F5ACAD8009362FD /* Message.swift */; };
+		FD1782831F5B0E5D009362FD /* KeyboardBoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1782821F5B0E5D009362FD /* KeyboardBoundView.swift */; };
 		FD4097091F530E730045ABA2 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4097071F530E730045ABA2 /* ProfileVC.swift */; };
 		FD40970A1F530E730045ABA2 /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD4097081F530E730045ABA2 /* ProfileVC.xib */; };
 		FD64DD291F2FBFEF002933DA /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD64DD281F2FBFEF002933DA /* ChatVC.swift */; };
@@ -41,6 +42,7 @@
 		93CD8D222355C5A5B4FFAD66 /* Pods-Smack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.release.xcconfig"; sourceTree = "<group>"; };
 		BDBA6ABDCCE9F3C47284495D /* Pods-Smack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.debug.xcconfig"; sourceTree = "<group>"; };
 		FD1782801F5ACAD8009362FD /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		FD1782821F5B0E5D009362FD /* KeyboardBoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardBoundView.swift; sourceTree = "<group>"; };
 		FD4097071F530E730045ABA2 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		FD4097081F530E730045ABA2 /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
 		FD64DD221F2CD245002933DA /* Smack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smack-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				FDC24E621F333F74002EAD68 /* AvatarCell.swift */,
 				FDC24E641F33926E002EAD68 /* CircleImage.swift */,
 				FDA168BA1F584CB800FC0C84 /* ChannelCell.swift */,
+				FD1782821F5B0E5D009362FD /* KeyboardBoundView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -336,6 +339,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD1782831F5B0E5D009362FD /* KeyboardBoundView.swift in Sources */,
 				FDA168C11F5859BC00FC0C84 /* SocketService.swift in Sources */,
 				FD4097091F530E730045ABA2 /* ProfileVC.swift in Sources */,
 				FDA168BB1F584CB800FC0C84 /* ChannelCell.swift in Sources */,
