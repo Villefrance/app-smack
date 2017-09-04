@@ -54,7 +54,9 @@ class MessageService {
             
             if response.result.error == nil {
                 self.clearMessages()
+                print("pre-unwrapping")
                 guard let data = response.data else { return }
+                print("post-unwrapping")
                 if let json = JSON(data: data).array {
                     for item in json {
                         let messageBody = item["messageBody"].stringValue
